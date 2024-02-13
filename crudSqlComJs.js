@@ -1,7 +1,7 @@
-/* é necessario, inicialmente realizar a criação do banco de dados, para realizar a inserção , consulta, atualização e deleção dos dados 
+/* é necessario, inicialmente realizar a criação do banco de dados, para realizar a inserção , consulta, atualização e deleção dos dados.
 ## Criando Banco de dados ##
 
- Comando para configurar o usuario: 
+ Comando para configurar o usuario e o localhost: 
      -h localhost -u root -p
 
  Comando para criação do banco de dados: 
@@ -14,7 +14,7 @@
         email VARCHAR(100) NOT NULL,
     );
 
-## Instalção da bibioteca para comunicação com o banco de dados ## 
+## Instalação da biblioteca para comunicação com o banco de dados ## 
 
 Comando a ser realizado no console: 
         npm install mysql2
